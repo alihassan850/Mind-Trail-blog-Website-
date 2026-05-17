@@ -1,0 +1,94 @@
+/* General Page Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+/* Add Blog Button */
+#add-blog {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#add-blog:hover {
+    background: #2980b9;
+}
+
+/* Blog Container */
+#blog-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Blog Card */
+.blog {
+    width: 280px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+    transition: 0.3s;
+}
+
+.blog:hover {
+    transform: translateY(-5px);
+}
+
+/* Blog Title */
+.blog h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Blog Description */
+.blog p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Buttons inside card */
+.blog button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/* Edit Button */
+.blog button:first-of-type {
+    background: #f39c12;
+    color: white;
+}
+
+/* Delete Button */
+.blog button:last-of-type {
+    background: #e74c3c;
+    color: white;
+}
